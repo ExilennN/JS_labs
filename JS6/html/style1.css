@@ -1,0 +1,54 @@
+body { 
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex; flex-direction: column; justify-content: center; justify-items: center; align-items: center;
+    background-color: #6c5341; color: white; margin: 0;
+}
+#caption {
+    display: flex; justify-content: center;
+    text-align: center;
+    background-color: #462c22; color: #b6bdbf;
+    width: 100%; margin: 0;
+}
+#caption > img {
+    width: 50px; height: 50px;
+    position: relative; top: 16px; right: 10px;
+}
+#products {
+    display: flex; flex-wrap: wrap; flex-direction: row;
+    margin: 0 50px 0 50px;
+}
+.product {
+    height: 400px; width: 250px;
+    background-color: #4b3026;
+    display: flex; flex-direction: column; 
+    margin: 20px; 
+    text-align: center;
+    border: 5px solid #ffcc00; border-radius: 5px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.68); 
+}
+.product-name { 
+    color: #fff0a2;
+    font-weight: bold; font-size: 20px; 
+    height: 30px;
+    margin-top: 10px;
+}
+.price {margin-bottom: 5px;}
+.product-price {
+    font-weight: bold; font-size: 20px;
+    margin: 0 0 10px 0;
+    position: relative;
+    bottom: 10px; right: 5px;
+    color: #ffcc00;
+}
+.gold { width: 30px; height: 30px;}
+.product > img { 
+    width: 200px; height: 200px; 
+    margin: 50px 10px 30px 10px;
+    align-self: center; 
+}
+.product > button {
+    height: 40px;
+    font-size: 15px;
+    background-color: #301d16; color: white; border: #7b6200  1px solid;
+}
+.product > button:hover { background-color: #523d2d; border: #ffcc00 1px solid;   }

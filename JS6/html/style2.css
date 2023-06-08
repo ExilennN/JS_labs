@@ -1,0 +1,30 @@
+body { 
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex; flex-direction: column; justify-content: center; justify-items: center; align-items: center;
+    background-color: #6c5341; color: white; margin: 0;
+}
+#caption {
+    display: flex; justify-content: center;
+    text-align: center;
+    background-color: #462c22; color: #b6bdbf;
+    width: 100%; margin: 0;
+}
+.table { margin-top: 20px; }
+tr {
+   height: 30px; color:#fff0a2;
+}
+td { width: 200px;}
+.price {position: relative; left: 65px;}
+#total-price { position: relative; right: 144px; width: 20px;}
+#total-text {color:#ffcc00}
+.gold {
+    position: relative; left: 60px;
+    width: 15px; height: 15px;
+    }
+button {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #301d16; color: white; border: #7b6200  1px solid;
+}
+button:hover{ background-color: #523d2d; border: #ffcc00 1px solid; }
